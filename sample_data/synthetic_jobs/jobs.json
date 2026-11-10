@@ -1,0 +1,92 @@
+[
+  {
+    "id": "job01",
+    "archetype": "python_backend",
+    "title": "Backend Engineer (Python)",
+    "department": "Platform Engineering",
+    "minimum_experience": 2,
+    "description": "Backend Engineer (Python)\nDepartment: Platform Engineering\n\nWe are a fictional company hiring a backend engineer (python).\n\nResponsibilities:\n- Design and build REST APIs\n- Write tests and review code\n- Improve database performance\n\nRequirements:\n- 2+ years of experience\n- Strong skills in Python, FastAPI, PostgreSQL, REST APIs\n- B.E./B.Tech in Computer Science or related field\n- Good communication and teamwork\n\nNice to have:\n- Docker, Redis",
+    "synthetic": true
+  },
+  {
+    "id": "job02",
+    "archetype": "java_backend",
+    "title": "Java Developer",
+    "department": "Payments",
+    "minimum_experience": 3,
+    "description": "Java Developer\nDepartment: Payments\n\nWe are a fictional company hiring a java developer.\n\nResponsibilities:\n- Develop Spring Boot microservices\n- Maintain payment workflows\n\nRequirements:\n- 3+ years of experience\n- Strong skills in Java, Spring Boot, MySQL, Microservices\n- Bachelor's degree in Computer Science\n- Good communication and teamwork\n\nNice to have:\n- Kafka, Docker",
+    "synthetic": true
+  },
+  {
+    "id": "job03",
+    "archetype": "frontend",
+    "title": "Frontend Developer (React)",
+    "department": "Web",
+    "minimum_experience": 1,
+    "description": "Frontend Developer (React)\nDepartment: Web\n\nWe are a fictional company hiring a frontend developer (react).\n\nResponsibilities:\n- Build responsive React interfaces\n- Work with designers on UI components\n\nRequirements:\n- 1+ years of experience\n- Strong skills in JavaScript, TypeScript, React, HTML, CSS\n- Any graduate degree\n- Good communication and teamwork\n\nNice to have:\n- Next.js, Tailwind CSS",
+    "synthetic": true
+  },
+  {
+    "id": "job04",
+    "archetype": "fullstack_js",
+    "title": "Full Stack Developer (MERN)",
+    "department": "Product",
+    "minimum_experience": 2,
+    "description": "Full Stack Developer (MERN)\nDepartment: Product\n\nWe are a fictional company hiring a full stack developer (mern).\n\nResponsibilities:\n- Build features end to end\n- Own APIs and UI for product modules\n\nRequirements:\n- 2+ years of experience\n- Strong skills in Node.js, Express.js, React, MongoDB\n- B.E./B.Tech or MCA\n- Good communication and teamwork\n\nNice to have:\n- TypeScript, AWS",
+    "synthetic": true
+  },
+  {
+    "id": "job05",
+    "archetype": "data_science",
+    "title": "Data Scientist",
+    "department": "Analytics",
+    "minimum_experience": 2,
+    "description": "Data Scientist\nDepartment: Analytics\n\nWe are a fictional company hiring a data scientist.\n\nResponsibilities:\n- Build predictive models\n- Present insights to stakeholders\n\nRequirements:\n- 2+ years of experience\n- Strong skills in Python, Machine learning, scikit-learn, pandas, Statistics\n- Master's or Bachelor's in Statistics, Mathematics, Computer Science or related field\n- Good communication and teamwork\n\nNice to have:\n- SQL, Tableau",
+    "synthetic": true
+  },
+  {
+    "id": "job06",
+    "archetype": "ml_nlp",
+    "title": "Machine Learning Engineer (NLP)",
+    "department": "AI Research",
+    "minimum_experience": 3,
+    "description": "Machine Learning Engineer (NLP)\nDepartment: AI Research\n\nWe are a fictional company hiring a machine learning engineer (nlp).\n\nResponsibilities:\n- Fine-tune language models\n- Ship NLP features to production\n\nRequirements:\n- 3+ years of experience\n- Strong skills in Python, PyTorch, Natural language processing, Transformers\n- M.Tech/M.S. or B.Tech in Computer Science or Artificial Intelligence\n- Good communication and teamwork\n\nNice to have:\n- LLM, Docker",
+    "synthetic": true
+  },
+  {
+    "id": "job07",
+    "archetype": "data_engineering",
+    "title": "Data Engineer",
+    "department": "Data Platform",
+    "minimum_experience": 3,
+    "description": "Data Engineer\nDepartment: Data Platform\n\nWe are a fictional company hiring a data engineer.\n\nResponsibilities:\n- Build batch and streaming pipelines\n- Maintain the data warehouse\n\nRequirements:\n- 3+ years of experience\n- Strong skills in Python, SQL, Apache Spark, Apache Airflow\n- Bachelor's degree in Engineering\n- Good communication and teamwork\n\nNice to have:\n- Apache Kafka, AWS",
+    "synthetic": true
+  },
+  {
+    "id": "job08",
+    "archetype": "devops",
+    "title": "DevOps Engineer",
+    "department": "Infrastructure",
+    "minimum_experience": 2,
+    "description": "DevOps Engineer\nDepartment: Infrastructure\n\nWe are a fictional company hiring a devops engineer.\n\nResponsibilities:\n- Run Kubernetes clusters\n- Automate deployments\n\nRequirements:\n- 2+ years of experience\n- Strong skills in Docker, Kubernetes, AWS, CI/CD, Linux\n- Any bachelor's degree\n- Good communication and teamwork\n\nNice to have:\n- Terraform, Ansible",
+    "synthetic": true
+  },
+  {
+    "id": "job09",
+    "archetype": "mobile",
+    "title": "Android Developer",
+    "department": "Mobile",
+    "minimum_experience": 1,
+    "description": "Android Developer\nDepartment: Mobile\n\nWe are a fictional company hiring a android developer.\n\nResponsibilities:\n- Build Android app features\n- Fix crashes and improve performance\n\nRequirements:\n- 1+ years of experience\n- Strong skills in Kotlin, Android development\n- B.E./B.Tech in any branch\n- Good communication and teamwork\n\nNice to have:\n- Flutter, Firebase",
+    "synthetic": true
+  },
+  {
+    "id": "job10",
+    "archetype": "qa_automation",
+    "title": "QA Automation Engineer",
+    "department": "Quality",
+    "minimum_experience": 0,
+    "description": "QA Automation Engineer\nDepartment: Quality\n\nWe are a fictional company hiring a qa automation engineer.\n\nResponsibilities:\n- Write automated UI and API tests\n- Report and track defects\n\nRequirements:\n- Freshers welcome\n- Strong skills in Test automation, API testing, Python\n- Bachelor's degree\n- Good communication and teamwork\n\nNice to have:\n- Postman, CI/CD",
+    "synthetic": true
+  }
+]

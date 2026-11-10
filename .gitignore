@@ -1,0 +1,39 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+backend/venv/
+
+# Node.js / Next.js
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/test-results/
+frontend/playwright-report/
+
+# Generated files and uploads
+uploads/
+storage/
+*.pdf
+
+# Model caches
+.cache/
+huggingface/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+sample_data/synthetic_candidates/

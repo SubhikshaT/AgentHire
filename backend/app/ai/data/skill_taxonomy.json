@@ -1,0 +1,1800 @@
+{
+ "_meta": {
+  "version": "1.0",
+  "description": "Curated skill taxonomy for AgentHire. Hand-written for this project. 'synonyms' are other names for the SAME skill (full credit). 'related' are DIFFERENT but adjacent skills (partial credit, labeled 'related, not equivalent'). Related links are treated as two-way by the loader.",
+  "sources": "Compiled by the project team from common technology names and official product documentation; category names loosely follow O*NET 'Hot Technologies' groupings. No O*NET/ESCO data files are bundled."
+ },
+ "python": {
+  "display": "Python",
+  "category": "programming_language",
+  "synonyms": [
+   "python3",
+   "py"
+  ],
+  "related": [
+   "django",
+   "flask",
+   "fastapi",
+   "pandas",
+   "numpy"
+  ]
+ },
+ "java": {
+  "display": "Java",
+  "category": "programming_language",
+  "synonyms": [
+   "java se",
+   "core java"
+  ],
+  "related": [
+   "spring_boot",
+   "kotlin",
+   "maven",
+   "hibernate"
+  ]
+ },
+ "javascript": {
+  "display": "JavaScript",
+  "category": "programming_language",
+  "synonyms": [
+   "js",
+   "ecmascript",
+   "es6"
+  ],
+  "related": [
+   "typescript",
+   "nodejs",
+   "react",
+   "html",
+   "css"
+  ]
+ },
+ "typescript": {
+  "display": "TypeScript",
+  "category": "programming_language",
+  "synonyms": [
+   "ts"
+  ],
+  "related": [
+   "javascript",
+   "angular",
+   "react",
+   "nodejs"
+  ]
+ },
+ "c": {
+  "display": "C",
+  "category": "programming_language",
+  "synonyms": [
+   "c language",
+   "ansi c"
+  ],
+  "related": [
+   "cpp",
+   "embedded_systems",
+   "operating_systems"
+  ]
+ },
+ "cpp": {
+  "display": "C++",
+  "category": "programming_language",
+  "synonyms": [
+   "c++",
+   "cplusplus",
+   "c plus plus"
+  ],
+  "related": [
+   "c",
+   "data_structures"
+  ]
+ },
+ "csharp": {
+  "display": "C#",
+  "category": "programming_language",
+  "synonyms": [
+   "c#",
+   "c sharp"
+  ],
+  "related": [
+   "dotnet",
+   "java"
+  ]
+ },
+ "go": {
+  "display": "Go",
+  "category": "programming_language",
+  "synonyms": [
+   "golang"
+  ],
+  "related": [
+   "microservices",
+   "docker"
+  ]
+ },
+ "rust": {
+  "display": "Rust",
+  "category": "programming_language",
+  "synonyms": [],
+  "related": [
+   "cpp",
+   "go"
+  ]
+ },
+ "kotlin": {
+  "display": "Kotlin",
+  "category": "programming_language",
+  "synonyms": [],
+  "related": [
+   "java",
+   "android"
+  ]
+ },
+ "swift": {
+  "display": "Swift",
+  "category": "programming_language",
+  "synonyms": [],
+  "related": [
+   "ios"
+  ]
+ },
+ "php": {
+  "display": "PHP",
+  "category": "programming_language",
+  "synonyms": [],
+  "related": [
+   "laravel",
+   "mysql"
+  ]
+ },
+ "ruby": {
+  "display": "Ruby",
+  "category": "programming_language",
+  "synonyms": [],
+  "related": [
+   "rails"
+  ]
+ },
+ "r": {
+  "display": "R",
+  "category": "programming_language",
+  "synonyms": [
+   "r programming",
+   "r language"
+  ],
+  "related": [
+   "statistics",
+   "data_analysis"
+  ]
+ },
+ "scala": {
+  "display": "Scala",
+  "category": "programming_language",
+  "synonyms": [],
+  "related": [
+   "spark",
+   "java"
+  ]
+ },
+ "dart": {
+  "display": "Dart",
+  "category": "programming_language",
+  "synonyms": [],
+  "related": [
+   "flutter"
+  ]
+ },
+ "bash": {
+  "display": "Bash / Shell scripting",
+  "category": "programming_language",
+  "synonyms": [
+   "shell scripting",
+   "shell script",
+   "bash scripting"
+  ],
+  "related": [
+   "linux"
+  ]
+ },
+ "sql": {
+  "display": "SQL",
+  "category": "database",
+  "synonyms": [
+   "structured query language",
+   "sql queries"
+  ],
+  "related": [
+   "postgresql",
+   "mysql",
+   "oracle_db",
+   "sql_server",
+   "sqlite",
+   "database_design"
+  ]
+ },
+ "html": {
+  "display": "HTML",
+  "category": "frontend",
+  "synonyms": [
+   "html5"
+  ],
+  "related": [
+   "css",
+   "javascript"
+  ]
+ },
+ "css": {
+  "display": "CSS",
+  "category": "frontend",
+  "synonyms": [
+   "css3"
+  ],
+  "related": [
+   "html",
+   "tailwind",
+   "sass",
+   "bootstrap"
+  ]
+ },
+ "react": {
+  "display": "React",
+  "category": "frontend_framework",
+  "synonyms": [
+   "reactjs",
+   "react.js",
+   "react js"
+  ],
+  "related": [
+   "javascript",
+   "typescript",
+   "nextjs",
+   "redux",
+   "angular",
+   "vue"
+  ]
+ },
+ "nextjs": {
+  "display": "Next.js",
+  "category": "frontend_framework",
+  "synonyms": [
+   "next.js",
+   "next js"
+  ],
+  "related": [
+   "react"
+  ]
+ },
+ "angular": {
+  "display": "Angular",
+  "category": "frontend_framework",
+  "synonyms": [
+   "angularjs",
+   "angular.js"
+  ],
+  "related": [
+   "typescript",
+   "react",
+   "vue"
+  ]
+ },
+ "vue": {
+  "display": "Vue.js",
+  "category": "frontend_framework",
+  "synonyms": [
+   "vuejs",
+   "vue.js",
+   "vue js"
+  ],
+  "related": [
+   "javascript",
+   "react",
+   "angular"
+  ]
+ },
+ "redux": {
+  "display": "Redux",
+  "category": "frontend",
+  "synonyms": [],
+  "related": [
+   "react"
+  ]
+ },
+ "tailwind": {
+  "display": "Tailwind CSS",
+  "category": "frontend",
+  "synonyms": [
+   "tailwindcss",
+   "tailwind css"
+  ],
+  "related": [
+   "css"
+  ]
+ },
+ "bootstrap": {
+  "display": "Bootstrap",
+  "category": "frontend",
+  "synonyms": [],
+  "related": [
+   "css"
+  ]
+ },
+ "sass": {
+  "display": "Sass",
+  "category": "frontend",
+  "synonyms": [
+   "scss"
+  ],
+  "related": [
+   "css"
+  ]
+ },
+ "nodejs": {
+  "display": "Node.js",
+  "category": "backend_framework",
+  "synonyms": [
+   "node.js",
+   "node js",
+   "node"
+  ],
+  "related": [
+   "javascript",
+   "express",
+   "typescript",
+   "nestjs"
+  ]
+ },
+ "express": {
+  "display": "Express.js",
+  "category": "backend_framework",
+  "synonyms": [
+   "expressjs",
+   "express.js"
+  ],
+  "related": [
+   "nodejs",
+   "rest_api"
+  ]
+ },
+ "nestjs": {
+  "display": "NestJS",
+  "category": "backend_framework",
+  "synonyms": [
+   "nest.js"
+  ],
+  "related": [
+   "nodejs",
+   "typescript"
+  ]
+ },
+ "django": {
+  "display": "Django",
+  "category": "backend_framework",
+  "synonyms": [
+   "django framework"
+  ],
+  "related": [
+   "python",
+   "flask",
+   "fastapi",
+   "rest_api",
+   "orm"
+  ]
+ },
+ "flask": {
+  "display": "Flask",
+  "category": "backend_framework",
+  "synonyms": [],
+  "related": [
+   "python",
+   "django",
+   "fastapi",
+   "rest_api"
+  ]
+ },
+ "fastapi": {
+  "display": "FastAPI",
+  "category": "backend_framework",
+  "synonyms": [
+   "fast api"
+  ],
+  "related": [
+   "python",
+   "django",
+   "flask",
+   "rest_api",
+   "pydantic"
+  ]
+ },
+ "spring_boot": {
+  "display": "Spring Boot",
+  "category": "backend_framework",
+  "synonyms": [
+   "spring",
+   "springboot",
+   "spring framework"
+  ],
+  "related": [
+   "java",
+   "rest_api",
+   "microservices",
+   "hibernate"
+  ]
+ },
+ "hibernate": {
+  "display": "Hibernate",
+  "category": "backend_framework",
+  "synonyms": [],
+  "related": [
+   "java",
+   "orm",
+   "spring_boot"
+  ]
+ },
+ "dotnet": {
+  "display": ".NET",
+  "category": "backend_framework",
+  "synonyms": [
+   ".net",
+   "asp.net",
+   "dotnet core",
+   ".net core",
+   "asp.net core"
+  ],
+  "related": [
+   "csharp",
+   "rest_api"
+  ]
+ },
+ "laravel": {
+  "display": "Laravel",
+  "category": "backend_framework",
+  "synonyms": [],
+  "related": [
+   "php"
+  ]
+ },
+ "rails": {
+  "display": "Ruby on Rails",
+  "category": "backend_framework",
+  "synonyms": [
+   "ruby on rails",
+   "ror"
+  ],
+  "related": [
+   "ruby"
+  ]
+ },
+ "pydantic": {
+  "display": "Pydantic",
+  "category": "backend",
+  "synonyms": [],
+  "related": [
+   "fastapi",
+   "python"
+  ]
+ },
+ "orm": {
+  "display": "ORM",
+  "category": "backend",
+  "synonyms": [
+   "object relational mapping",
+   "sqlalchemy"
+  ],
+  "related": [
+   "django",
+   "hibernate",
+   "sql"
+  ]
+ },
+ "rest_api": {
+  "display": "REST APIs",
+  "category": "backend",
+  "synonyms": [
+   "rest",
+   "restful",
+   "rest api",
+   "restful api",
+   "restful apis",
+   "rest apis",
+   "api development"
+  ],
+  "related": [
+   "fastapi",
+   "django",
+   "flask",
+   "express",
+   "spring_boot",
+   "graphql",
+   "backend_development"
+  ]
+ },
+ "graphql": {
+  "display": "GraphQL",
+  "category": "backend",
+  "synonyms": [],
+  "related": [
+   "rest_api"
+  ]
+ },
+ "grpc": {
+  "display": "gRPC",
+  "category": "backend",
+  "synonyms": [],
+  "related": [
+   "microservices",
+   "rest_api"
+  ]
+ },
+ "microservices": {
+  "display": "Microservices",
+  "category": "architecture",
+  "synonyms": [
+   "microservice architecture",
+   "micro services"
+  ],
+  "related": [
+   "docker",
+   "kubernetes",
+   "rest_api",
+   "system_design"
+  ]
+ },
+ "backend_development": {
+  "display": "Backend development",
+  "category": "role_skill",
+  "synonyms": [
+   "backend",
+   "back-end development",
+   "server-side development",
+   "back end"
+  ],
+  "related": [
+   "rest_api",
+   "sql",
+   "nodejs",
+   "django",
+   "fastapi",
+   "spring_boot"
+  ]
+ },
+ "frontend_development": {
+  "display": "Frontend development",
+  "category": "role_skill",
+  "synonyms": [
+   "frontend",
+   "front-end development",
+   "front end"
+  ],
+  "related": [
+   "react",
+   "javascript",
+   "html",
+   "css"
+  ]
+ },
+ "full_stack": {
+  "display": "Full-stack development",
+  "category": "role_skill",
+  "synonyms": [
+   "full stack",
+   "fullstack",
+   "full-stack"
+  ],
+  "related": [
+   "frontend_development",
+   "backend_development"
+  ]
+ },
+ "postgresql": {
+  "display": "PostgreSQL",
+  "category": "database",
+  "synonyms": [
+   "postgres",
+   "postgre sql",
+   "psql"
+  ],
+  "related": [
+   "sql",
+   "mysql",
+   "pgvector"
+  ]
+ },
+ "mysql": {
+  "display": "MySQL",
+  "category": "database",
+  "synonyms": [
+   "my sql",
+   "mariadb"
+  ],
+  "related": [
+   "sql",
+   "postgresql"
+  ]
+ },
+ "sqlite": {
+  "display": "SQLite",
+  "category": "database",
+  "synonyms": [],
+  "related": [
+   "sql"
+  ]
+ },
+ "oracle_db": {
+  "display": "Oracle Database",
+  "category": "database",
+  "synonyms": [
+   "oracle",
+   "pl/sql",
+   "plsql"
+  ],
+  "related": [
+   "sql"
+  ]
+ },
+ "sql_server": {
+  "display": "Microsoft SQL Server",
+  "category": "database",
+  "synonyms": [
+   "mssql",
+   "ms sql",
+   "sql server",
+   "t-sql"
+  ],
+  "related": [
+   "sql"
+  ]
+ },
+ "mongodb": {
+  "display": "MongoDB",
+  "category": "database",
+  "synonyms": [
+   "mongo"
+  ],
+  "related": [
+   "nosql"
+  ]
+ },
+ "redis": {
+  "display": "Redis",
+  "category": "database",
+  "synonyms": [],
+  "related": [
+   "nosql",
+   "caching"
+  ]
+ },
+ "nosql": {
+  "display": "NoSQL",
+  "category": "database",
+  "synonyms": [
+   "no sql"
+  ],
+  "related": [
+   "mongodb",
+   "redis",
+   "cassandra",
+   "dynamodb"
+  ]
+ },
+ "cassandra": {
+  "display": "Cassandra",
+  "category": "database",
+  "synonyms": [
+   "apache cassandra"
+  ],
+  "related": [
+   "nosql"
+  ]
+ },
+ "dynamodb": {
+  "display": "DynamoDB",
+  "category": "database",
+  "synonyms": [],
+  "related": [
+   "nosql",
+   "aws"
+  ]
+ },
+ "elasticsearch": {
+  "display": "Elasticsearch",
+  "category": "database",
+  "synonyms": [
+   "elastic search",
+   "elk"
+  ],
+  "related": [
+   "nosql"
+  ]
+ },
+ "pgvector": {
+  "display": "pgvector",
+  "category": "database",
+  "synonyms": [],
+  "related": [
+   "postgresql",
+   "vector_databases"
+  ]
+ },
+ "vector_databases": {
+  "display": "Vector databases",
+  "category": "database",
+  "synonyms": [
+   "vector database",
+   "vector db",
+   "faiss",
+   "pinecone",
+   "chromadb",
+   "chroma"
+  ],
+  "related": [
+   "pgvector",
+   "rag",
+   "embeddings"
+  ]
+ },
+ "database_design": {
+  "display": "Database design",
+  "category": "database",
+  "synonyms": [
+   "database normalization",
+   "normalization",
+   "er modeling",
+   "data modeling",
+   "schema design"
+  ],
+  "related": [
+   "sql",
+   "dbms"
+  ]
+ },
+ "dbms": {
+  "display": "DBMS concepts",
+  "category": "cs_fundamentals",
+  "synonyms": [
+   "database management systems",
+   "database management"
+  ],
+  "related": [
+   "sql",
+   "database_design"
+  ]
+ },
+ "caching": {
+  "display": "Caching",
+  "category": "architecture",
+  "synonyms": [],
+  "related": [
+   "redis",
+   "system_design"
+  ]
+ },
+ "docker": {
+  "display": "Docker",
+  "category": "devops",
+  "synonyms": [
+   "containers",
+   "containerization",
+   "dockerfile"
+  ],
+  "related": [
+   "kubernetes",
+   "microservices",
+   "ci_cd"
+  ]
+ },
+ "kubernetes": {
+  "display": "Kubernetes",
+  "category": "devops",
+  "synonyms": [
+   "k8s"
+  ],
+  "related": [
+   "docker",
+   "microservices",
+   "helm"
+  ]
+ },
+ "helm": {
+  "display": "Helm",
+  "category": "devops",
+  "synonyms": [],
+  "related": [
+   "kubernetes"
+  ]
+ },
+ "ci_cd": {
+  "display": "CI/CD",
+  "category": "devops",
+  "synonyms": [
+   "ci/cd",
+   "continuous integration",
+   "continuous deployment",
+   "github actions",
+   "jenkins",
+   "gitlab ci"
+  ],
+  "related": [
+   "docker",
+   "git"
+  ]
+ },
+ "terraform": {
+  "display": "Terraform",
+  "category": "devops",
+  "synonyms": [
+   "infrastructure as code",
+   "iac"
+  ],
+  "related": [
+   "aws",
+   "azure",
+   "gcp"
+  ]
+ },
+ "ansible": {
+  "display": "Ansible",
+  "category": "devops",
+  "synonyms": [],
+  "related": [
+   "linux",
+   "terraform"
+  ]
+ },
+ "linux": {
+  "display": "Linux",
+  "category": "devops",
+  "synonyms": [
+   "unix",
+   "ubuntu"
+  ],
+  "related": [
+   "bash",
+   "operating_systems"
+  ]
+ },
+ "nginx": {
+  "display": "Nginx",
+  "category": "devops",
+  "synonyms": [],
+  "related": [
+   "linux"
+  ]
+ },
+ "aws": {
+  "display": "AWS",
+  "category": "cloud",
+  "synonyms": [
+   "amazon web services",
+   "ec2",
+   "s3",
+   "aws lambda"
+  ],
+  "related": [
+   "azure",
+   "gcp",
+   "cloud_computing"
+  ]
+ },
+ "azure": {
+  "display": "Microsoft Azure",
+  "category": "cloud",
+  "synonyms": [
+   "azure cloud"
+  ],
+  "related": [
+   "aws",
+   "gcp",
+   "cloud_computing"
+  ]
+ },
+ "gcp": {
+  "display": "Google Cloud",
+  "category": "cloud",
+  "synonyms": [
+   "google cloud platform",
+   "gcp"
+  ],
+  "related": [
+   "aws",
+   "azure",
+   "cloud_computing"
+  ]
+ },
+ "cloud_computing": {
+  "display": "Cloud computing",
+  "category": "cloud",
+  "synonyms": [
+   "cloud"
+  ],
+  "related": [
+   "aws",
+   "azure",
+   "gcp"
+  ]
+ },
+ "git": {
+  "display": "Git",
+  "category": "tools",
+  "synonyms": [
+   "github",
+   "gitlab",
+   "version control",
+   "bitbucket"
+  ],
+  "related": [
+   "ci_cd"
+  ]
+ },
+ "jira": {
+  "display": "Jira",
+  "category": "tools",
+  "synonyms": [],
+  "related": [
+   "agile"
+  ]
+ },
+ "postman": {
+  "display": "Postman",
+  "category": "tools",
+  "synonyms": [],
+  "related": [
+   "rest_api",
+   "api_testing"
+  ]
+ },
+ "machine_learning": {
+  "display": "Machine learning",
+  "category": "ai_ml",
+  "synonyms": [
+   "ml",
+   "machine-learning"
+  ],
+  "related": [
+   "deep_learning",
+   "scikit_learn",
+   "python",
+   "data_science",
+   "statistics"
+  ]
+ },
+ "deep_learning": {
+  "display": "Deep learning",
+  "category": "ai_ml",
+  "synonyms": [
+   "neural networks",
+   "dl"
+  ],
+  "related": [
+   "machine_learning",
+   "tensorflow",
+   "pytorch",
+   "computer_vision",
+   "nlp"
+  ]
+ },
+ "nlp": {
+  "display": "Natural language processing",
+  "category": "ai_ml",
+  "synonyms": [
+   "natural language processing",
+   "text mining"
+  ],
+  "related": [
+   "spacy",
+   "transformers",
+   "deep_learning",
+   "llm"
+  ]
+ },
+ "computer_vision": {
+  "display": "Computer vision",
+  "category": "ai_ml",
+  "synonyms": [
+   "image processing",
+   "opencv"
+  ],
+  "related": [
+   "deep_learning"
+  ]
+ },
+ "tensorflow": {
+  "display": "TensorFlow",
+  "category": "ai_ml",
+  "synonyms": [
+   "keras",
+   "tf"
+  ],
+  "related": [
+   "pytorch",
+   "deep_learning"
+  ]
+ },
+ "pytorch": {
+  "display": "PyTorch",
+  "category": "ai_ml",
+  "synonyms": [
+   "torch"
+  ],
+  "related": [
+   "tensorflow",
+   "deep_learning"
+  ]
+ },
+ "scikit_learn": {
+  "display": "scikit-learn",
+  "category": "ai_ml",
+  "synonyms": [
+   "sklearn",
+   "scikit learn"
+  ],
+  "related": [
+   "machine_learning",
+   "python",
+   "pandas"
+  ]
+ },
+ "transformers": {
+  "display": "Transformers (Hugging Face)",
+  "category": "ai_ml",
+  "synonyms": [
+   "hugging face",
+   "huggingface",
+   "bert"
+  ],
+  "related": [
+   "nlp",
+   "llm",
+   "pytorch"
+  ]
+ },
+ "spacy": {
+  "display": "spaCy",
+  "category": "ai_ml",
+  "synonyms": [],
+  "related": [
+   "nlp",
+   "python"
+  ]
+ },
+ "llm": {
+  "display": "Large language models",
+  "category": "ai_ml",
+  "synonyms": [
+   "large language models",
+   "llms",
+   "gpt",
+   "generative ai",
+   "genai",
+   "prompt engineering"
+  ],
+  "related": [
+   "nlp",
+   "rag",
+   "langchain",
+   "transformers"
+  ]
+ },
+ "rag": {
+  "display": "Retrieval-augmented generation",
+  "category": "ai_ml",
+  "synonyms": [
+   "retrieval augmented generation",
+   "retrieval-augmented generation"
+  ],
+  "related": [
+   "llm",
+   "vector_databases",
+   "embeddings"
+  ]
+ },
+ "embeddings": {
+  "display": "Embeddings / semantic search",
+  "category": "ai_ml",
+  "synonyms": [
+   "semantic search",
+   "sentence transformers",
+   "sentence-transformers",
+   "vector embeddings"
+  ],
+  "related": [
+   "rag",
+   "nlp",
+   "vector_databases"
+  ]
+ },
+ "langchain": {
+  "display": "LangChain",
+  "category": "ai_ml",
+  "synonyms": [
+   "llamaindex"
+  ],
+  "related": [
+   "llm",
+   "rag"
+  ]
+ },
+ "mlops": {
+  "display": "MLOps",
+  "category": "ai_ml",
+  "synonyms": [
+   "mlflow",
+   "model deployment"
+  ],
+  "related": [
+   "machine_learning",
+   "docker",
+   "ci_cd"
+  ]
+ },
+ "data_science": {
+  "display": "Data science",
+  "category": "data",
+  "synonyms": [],
+  "related": [
+   "machine_learning",
+   "statistics",
+   "data_analysis",
+   "python"
+  ]
+ },
+ "data_analysis": {
+  "display": "Data analysis",
+  "category": "data",
+  "synonyms": [
+   "data analytics",
+   "analytics",
+   "exploratory data analysis",
+   "eda"
+  ],
+  "related": [
+   "pandas",
+   "excel",
+   "sql",
+   "data_visualization",
+   "statistics"
+  ]
+ },
+ "statistics": {
+  "display": "Statistics",
+  "category": "data",
+  "synonyms": [
+   "statistical analysis",
+   "probability"
+  ],
+  "related": [
+   "data_analysis",
+   "machine_learning",
+   "r"
+  ]
+ },
+ "pandas": {
+  "display": "pandas",
+  "category": "data",
+  "synonyms": [],
+  "related": [
+   "python",
+   "numpy",
+   "data_analysis"
+  ]
+ },
+ "numpy": {
+  "display": "NumPy",
+  "category": "data",
+  "synonyms": [],
+  "related": [
+   "python",
+   "pandas"
+  ]
+ },
+ "data_visualization": {
+  "display": "Data visualization",
+  "category": "data",
+  "synonyms": [
+   "matplotlib",
+   "seaborn",
+   "plotly",
+   "visualization"
+  ],
+  "related": [
+   "power_bi",
+   "tableau",
+   "data_analysis"
+  ]
+ },
+ "power_bi": {
+  "display": "Power BI",
+  "category": "data",
+  "synonyms": [
+   "powerbi"
+  ],
+  "related": [
+   "tableau",
+   "data_visualization",
+   "excel"
+  ]
+ },
+ "tableau": {
+  "display": "Tableau",
+  "category": "data",
+  "synonyms": [],
+  "related": [
+   "power_bi",
+   "data_visualization"
+  ]
+ },
+ "excel": {
+  "display": "Microsoft Excel",
+  "category": "data",
+  "synonyms": [
+   "ms excel",
+   "advanced excel",
+   "spreadsheets"
+  ],
+  "related": [
+   "data_analysis",
+   "power_bi"
+  ]
+ },
+ "spark": {
+  "display": "Apache Spark",
+  "category": "data",
+  "synonyms": [
+   "pyspark",
+   "apache spark"
+  ],
+  "related": [
+   "hadoop",
+   "scala",
+   "data_engineering"
+  ]
+ },
+ "hadoop": {
+  "display": "Hadoop",
+  "category": "data",
+  "synonyms": [
+   "hdfs",
+   "mapreduce"
+  ],
+  "related": [
+   "spark",
+   "data_engineering"
+  ]
+ },
+ "kafka": {
+  "display": "Apache Kafka",
+  "category": "data",
+  "synonyms": [
+   "kafka"
+  ],
+  "related": [
+   "microservices",
+   "data_engineering"
+  ]
+ },
+ "airflow": {
+  "display": "Apache Airflow",
+  "category": "data",
+  "synonyms": [
+   "airflow"
+  ],
+  "related": [
+   "data_engineering",
+   "etl"
+  ]
+ },
+ "etl": {
+  "display": "ETL",
+  "category": "data",
+  "synonyms": [
+   "etl pipelines",
+   "data pipelines"
+  ],
+  "related": [
+   "data_engineering",
+   "sql",
+   "airflow"
+  ]
+ },
+ "data_engineering": {
+  "display": "Data engineering",
+  "category": "data",
+  "synonyms": [],
+  "related": [
+   "etl",
+   "spark",
+   "sql",
+   "airflow",
+   "kafka"
+  ]
+ },
+ "android": {
+  "display": "Android development",
+  "category": "mobile",
+  "synonyms": [
+   "android"
+  ],
+  "related": [
+   "kotlin",
+   "java"
+  ]
+ },
+ "ios": {
+  "display": "iOS development",
+  "category": "mobile",
+  "synonyms": [
+   "ios"
+  ],
+  "related": [
+   "swift"
+  ]
+ },
+ "flutter": {
+  "display": "Flutter",
+  "category": "mobile",
+  "synonyms": [],
+  "related": [
+   "dart",
+   "react_native"
+  ]
+ },
+ "react_native": {
+  "display": "React Native",
+  "category": "mobile",
+  "synonyms": [
+   "react-native"
+  ],
+  "related": [
+   "react",
+   "flutter"
+  ]
+ },
+ "data_structures": {
+  "display": "Data structures",
+  "category": "cs_fundamentals",
+  "synonyms": [
+   "dsa",
+   "data structures and algorithms"
+  ],
+  "related": [
+   "algorithms"
+  ]
+ },
+ "algorithms": {
+  "display": "Algorithms",
+  "category": "cs_fundamentals",
+  "synonyms": [
+   "algorithm design",
+   "problem solving with algorithms"
+  ],
+  "related": [
+   "data_structures"
+  ]
+ },
+ "operating_systems": {
+  "display": "Operating systems",
+  "category": "cs_fundamentals",
+  "synonyms": [
+   "os concepts",
+   "operating system"
+  ],
+  "related": [
+   "linux",
+   "c"
+  ]
+ },
+ "computer_networks": {
+  "display": "Computer networks",
+  "category": "cs_fundamentals",
+  "synonyms": [
+   "networking",
+   "tcp/ip",
+   "computer networking"
+  ],
+  "related": [
+   "network_security"
+  ]
+ },
+ "oop": {
+  "display": "Object-oriented programming",
+  "category": "cs_fundamentals",
+  "synonyms": [
+   "object oriented programming",
+   "oops",
+   "object-oriented design"
+  ],
+  "related": [
+   "java",
+   "design_patterns"
+  ]
+ },
+ "design_patterns": {
+  "display": "Design patterns",
+  "category": "cs_fundamentals",
+  "synonyms": [
+   "solid principles",
+   "solid"
+  ],
+  "related": [
+   "oop",
+   "system_design"
+  ]
+ },
+ "system_design": {
+  "display": "System design",
+  "category": "architecture",
+  "synonyms": [
+   "distributed systems",
+   "scalable systems",
+   "high level design"
+  ],
+  "related": [
+   "microservices",
+   "caching",
+   "design_patterns"
+  ]
+ },
+ "embedded_systems": {
+  "display": "Embedded systems",
+  "category": "hardware",
+  "synonyms": [
+   "embedded",
+   "microcontrollers",
+   "arduino",
+   "raspberry pi"
+  ],
+  "related": [
+   "c",
+   "iot"
+  ]
+ },
+ "iot": {
+  "display": "Internet of Things",
+  "category": "hardware",
+  "synonyms": [
+   "internet of things"
+  ],
+  "related": [
+   "embedded_systems"
+  ]
+ },
+ "unit_testing": {
+  "display": "Unit testing",
+  "category": "testing",
+  "synonyms": [
+   "pytest",
+   "junit",
+   "jest",
+   "unittest",
+   "test driven development",
+   "tdd"
+  ],
+  "related": [
+   "test_automation",
+   "ci_cd"
+  ]
+ },
+ "test_automation": {
+  "display": "Test automation",
+  "category": "testing",
+  "synonyms": [
+   "selenium",
+   "cypress",
+   "playwright",
+   "automation testing"
+  ],
+  "related": [
+   "unit_testing",
+   "manual_testing"
+  ]
+ },
+ "manual_testing": {
+  "display": "Manual testing",
+  "category": "testing",
+  "synonyms": [
+   "qa testing",
+   "software testing",
+   "quality assurance"
+  ],
+  "related": [
+   "test_automation"
+  ]
+ },
+ "api_testing": {
+  "display": "API testing",
+  "category": "testing",
+  "synonyms": [],
+  "related": [
+   "postman",
+   "rest_api",
+   "unit_testing"
+  ]
+ },
+ "cybersecurity": {
+  "display": "Cybersecurity",
+  "category": "security",
+  "synonyms": [
+   "information security",
+   "infosec",
+   "cyber security"
+  ],
+  "related": [
+   "network_security",
+   "owasp"
+  ]
+ },
+ "network_security": {
+  "display": "Network security",
+  "category": "security",
+  "synonyms": [
+   "firewalls"
+  ],
+  "related": [
+   "cybersecurity",
+   "computer_networks"
+  ]
+ },
+ "owasp": {
+  "display": "OWASP / web security",
+  "category": "security",
+  "synonyms": [
+   "web security",
+   "owasp top 10"
+  ],
+  "related": [
+   "cybersecurity"
+  ]
+ },
+ "oauth": {
+  "display": "Authentication (OAuth / JWT)",
+  "category": "security",
+  "synonyms": [
+   "jwt",
+   "oauth2",
+   "authentication",
+   "authorization"
+  ],
+  "related": [
+   "rest_api",
+   "owasp"
+  ]
+ },
+ "figma": {
+  "display": "Figma",
+  "category": "design",
+  "synonyms": [],
+  "related": [
+   "ui_ux"
+  ]
+ },
+ "ui_ux": {
+  "display": "UI/UX design",
+  "category": "design",
+  "synonyms": [
+   "ui/ux",
+   "ux design",
+   "ui design",
+   "user experience"
+  ],
+  "related": [
+   "figma",
+   "frontend_development"
+  ]
+ },
+ "agile": {
+  "display": "Agile / Scrum",
+  "category": "process",
+  "synonyms": [
+   "scrum",
+   "kanban",
+   "agile methodology"
+  ],
+  "related": [
+   "jira"
+  ]
+ },
+ "sdlc": {
+  "display": "Software development life cycle",
+  "category": "process",
+  "synonyms": [
+   "software engineering",
+   "software development life cycle"
+  ],
+  "related": [
+   "agile"
+  ]
+ },
+ "communication": {
+  "display": "Communication",
+  "category": "soft_skill",
+  "synonyms": [
+   "communication skills",
+   "verbal communication",
+   "written communication"
+  ],
+  "related": [
+   "presentation"
+  ]
+ },
+ "teamwork": {
+  "display": "Teamwork",
+  "category": "soft_skill",
+  "synonyms": [
+   "collaboration",
+   "team player",
+   "team work"
+  ],
+  "related": [
+   "communication"
+  ]
+ },
+ "leadership": {
+  "display": "Leadership",
+  "category": "soft_skill",
+  "synonyms": [
+   "team leadership",
+   "mentoring",
+   "people management"
+  ],
+  "related": [
+   "teamwork"
+  ]
+ },
+ "problem_solving": {
+  "display": "Problem solving",
+  "category": "soft_skill",
+  "synonyms": [
+   "problem-solving",
+   "analytical thinking",
+   "analytical skills",
+   "critical thinking"
+  ],
+  "related": [
+   "algorithms"
+  ]
+ },
+ "time_management": {
+  "display": "Time management",
+  "category": "soft_skill",
+  "synonyms": [
+   "prioritization"
+  ],
+  "related": []
+ },
+ "presentation": {
+  "display": "Presentation skills",
+  "category": "soft_skill",
+  "synonyms": [
+   "public speaking",
+   "presentation"
+  ],
+  "related": [
+   "communication"
+  ]
+ },
+ "adaptability": {
+  "display": "Adaptability",
+  "category": "soft_skill",
+  "synonyms": [
+   "flexibility",
+   "quick learner",
+   "fast learner"
+  ],
+  "related": []
+ },
+ "stakeholder_management": {
+  "display": "Stakeholder management",
+  "category": "soft_skill",
+  "synonyms": [
+   "client communication",
+   "client handling"
+  ],
+  "related": [
+   "communication"
+  ]
+ },
+ "maven": {
+  "display": "Maven / Gradle",
+  "category": "tools",
+  "synonyms": [
+   "apache maven",
+   "gradle"
+  ],
+  "related": [
+   "java"
+  ]
+ },
+ "webpack": {
+  "display": "Webpack / Vite",
+  "category": "frontend",
+  "synonyms": [
+   "vite",
+   "bundlers"
+  ],
+  "related": [
+   "javascript"
+  ]
+ },
+ "rabbitmq": {
+  "display": "RabbitMQ",
+  "category": "backend",
+  "synonyms": [
+   "message queues",
+   "message queue"
+  ],
+  "related": [
+   "kafka",
+   "microservices"
+  ]
+ },
+ "firebase": {
+  "display": "Firebase",
+  "category": "cloud",
+  "synonyms": [
+   "supabase"
+  ],
+  "related": [
+   "gcp",
+   "nosql"
+  ]
+ },
+ "websockets": {
+  "display": "WebSockets",
+  "category": "backend",
+  "synonyms": [
+   "websocket",
+   "socket.io"
+  ],
+  "related": [
+   "nodejs",
+   "rest_api"
+  ]
+ },
+ "excel_vba": {
+  "display": "VBA",
+  "category": "data",
+  "synonyms": [
+   "vba",
+   "excel macros"
+  ],
+  "related": [
+   "excel"
+  ]
+ },
+ "networking_protocols": {
+  "display": "HTTP / web protocols",
+  "category": "cs_fundamentals",
+  "synonyms": [
+   "http",
+   "https",
+   "dns"
+  ],
+  "related": [
+   "computer_networks",
+   "rest_api"
+  ]
+ },
+ "project_management": {
+  "display": "Project management",
+  "category": "process",
+  "synonyms": [
+   "pmp",
+   "project planning"
+  ],
+  "related": [
+   "agile",
+   "leadership"
+  ]
+ },
+ "opencv_vision": {
+  "display": "Image classification / detection",
+  "category": "ai_ml",
+  "synonyms": [
+   "object detection",
+   "image classification",
+   "yolo"
+  ],
+  "related": [
+   "computer_vision",
+   "deep_learning"
+  ]
+ }
+}

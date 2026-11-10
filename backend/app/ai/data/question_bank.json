@@ -1,0 +1,347 @@
+{
+ "_meta": {"version": "qbank-1.0", "note": "Curated offline question bank used when no LLM is configured. 'skills' are taxonomy keys used to pick questions relevant to the job; empty = general. '{project}' and '{skill}' are filled from the candidate's resume."},
+ "programming": {
+  "beginner": [
+   {"q": "What is the difference between a list and a tuple in Python?", "concepts": ["mutable vs immutable", "syntax", "use as dictionary keys", "performance"], "skills": ["python"]},
+   {"q": "Explain what a Python virtual environment is and why you would use one.", "concepts": ["isolated dependencies", "per-project packages", "version conflicts", "venv or pip"], "skills": ["python"]},
+   {"q": "What is the difference between == and is in Python?", "concepts": ["value equality", "identity", "same object", "None comparison"], "skills": ["python"]},
+   {"q": "What are the main differences between an abstract class and an interface in Java?", "concepts": ["multiple inheritance", "method implementations", "state or fields", "when to use each"], "skills": ["java", "oop"]},
+   {"q": "Explain the difference between == and .equals() in Java.", "concepts": ["reference comparison", "content comparison", "overriding equals", "hashCode"], "skills": ["java"]},
+   {"q": "What is the difference between let, const and var in JavaScript?", "concepts": ["block scope", "function scope", "reassignment", "hoisting"], "skills": ["javascript", "typescript"]},
+   {"q": "What is a closure in JavaScript? Give a simple example.", "concepts": ["inner function", "access to outer variables", "lexical scope", "example"], "skills": ["javascript"]},
+   {"q": "What are the four pillars of object-oriented programming?", "concepts": ["encapsulation", "inheritance", "polymorphism", "abstraction"], "skills": []},
+   {"q": "What is the difference between compiled and interpreted languages?", "concepts": ["compile to machine code", "interpreter runs line by line", "performance", "examples"], "skills": []},
+   {"q": "What is exception handling and why is it useful?", "concepts": ["try catch or except", "error recovery", "finally or cleanup", "avoid crashes"], "skills": []},
+   {"q": "Explain the difference between a pointer and a reference in C++.", "concepts": ["can be null", "reassignment", "syntax", "memory address"], "skills": ["cpp", "c"]}
+  ],
+  "intermediate": [
+   {"q": "Explain Python decorators and give a real use case.", "concepts": ["function that wraps a function", "@ syntax", "functools.wraps", "logging or auth example"], "skills": ["python"]},
+   {"q": "What are Python generators and when would you use them instead of lists?", "concepts": ["yield", "lazy evaluation", "memory efficiency", "iterators"], "skills": ["python"]},
+   {"q": "What is the Global Interpreter Lock in Python and how does it affect concurrency?", "concepts": ["one thread runs Python bytecode", "CPU-bound vs IO-bound", "multiprocessing", "asyncio"], "skills": ["python"]},
+   {"q": "How does async/await work in Python or JavaScript?", "concepts": ["event loop", "non-blocking IO", "coroutines or promises", "when it helps"], "skills": ["python", "javascript", "nodejs", "fastapi"]},
+   {"q": "Explain how the Java garbage collector works at a high level.", "concepts": ["heap", "reachability", "generations", "stop-the-world pauses"], "skills": ["java"]},
+   {"q": "What is dependency injection and why does Spring use it?", "concepts": ["inversion of control", "loose coupling", "testability", "beans"], "skills": ["spring_boot", "java"]},
+   {"q": "Explain the JavaScript event loop.", "concepts": ["call stack", "task queue", "microtasks", "non-blocking"], "skills": ["javascript", "nodejs"]},
+   {"q": "What problems do React hooks like useState and useEffect solve?", "concepts": ["state in function components", "side effects", "dependency array", "cleanup"], "skills": ["react"]},
+   {"q": "What is the difference between a process and a thread from a programmer's view?", "concepts": ["separate memory", "shared memory", "context switch cost", "synchronization"], "skills": []},
+   {"q": "How would you write unit tests for a function that calls an external API?", "concepts": ["mocking", "isolation", "test edge cases", "deterministic tests"], "skills": ["unit_testing"]},
+   {"q": "What are SOLID principles? Explain two of them with examples.", "concepts": ["single responsibility", "open closed", "dependency inversion", "example"], "skills": ["design_patterns", "oop"]}
+  ],
+  "advanced": [
+   {"q": "How would you find and fix a memory leak in a long-running Python service?", "concepts": ["profiling tools", "reference cycles", "caches growing", "measure before and after"], "skills": ["python"]},
+   {"q": "Explain Python's method resolution order and how super() works with multiple inheritance.", "concepts": ["C3 linearization", "MRO", "cooperative super calls", "diamond problem"], "skills": ["python"]},
+   {"q": "How does Java's ConcurrentHashMap achieve thread safety without locking the whole map?", "concepts": ["fine-grained locking or CAS", "segments or bins", "reads without locks", "trade-offs"], "skills": ["java"]},
+   {"q": "Explain the Java memory model and the purpose of the volatile keyword.", "concepts": ["visibility", "happens-before", "reordering", "not atomicity"], "skills": ["java"]},
+   {"q": "How would you avoid unnecessary re-renders in a large React application?", "concepts": ["memoization", "React.memo or useMemo", "state placement", "profiling"], "skills": ["react"]},
+   {"q": "How does Node.js handle CPU-heavy work without blocking requests?", "concepts": ["single-threaded event loop", "worker threads", "offloading to queues", "child processes"], "skills": ["nodejs"]},
+   {"q": "Design a rate limiter function. What data structures and algorithm would you use?", "concepts": ["token bucket or sliding window", "time complexity", "concurrency", "distributed state"], "skills": []},
+   {"q": "Explain how you would make a piece of code thread-safe and the trade-offs of each approach.", "concepts": ["locks", "immutability", "atomic operations", "deadlock risk"], "skills": []},
+   {"q": "How do you decide between inheritance and composition? Give an example where inheritance went wrong.", "concepts": ["is-a vs has-a", "tight coupling", "fragile base class", "example"], "skills": ["oop", "design_patterns"]},
+   {"q": "How would you design an extensible plugin system in your main language?", "concepts": ["interfaces", "registration or discovery", "isolation", "versioning"], "skills": []}
+  ]
+ },
+ "dsa": {
+  "beginner": [
+   {"q": "What is the difference between an array and a linked list?", "concepts": ["contiguous memory", "random access", "insertion cost", "extra pointer memory"], "skills": []},
+   {"q": "Explain what a stack and a queue are, with one real use for each.", "concepts": ["LIFO", "FIFO", "push pop", "use cases"], "skills": []},
+   {"q": "What does Big-O notation describe?", "concepts": ["growth rate", "worst case", "input size", "examples like O(n)"], "skills": []},
+   {"q": "How does binary search work and what does it require?", "concepts": ["sorted input", "halve the range", "O(log n)", "mid index"], "skills": []},
+   {"q": "What is a hash table and why is lookup usually fast?", "concepts": ["hash function", "buckets", "average O(1)", "collisions"], "skills": []},
+   {"q": "Explain the difference between bubble sort and merge sort.", "concepts": ["O(n^2) vs O(n log n)", "divide and conquer", "stability", "extra memory"], "skills": []},
+   {"q": "What is recursion? What is a base case?", "concepts": ["function calls itself", "base case stops recursion", "call stack", "example"], "skills": []},
+   {"q": "What is a binary tree and what is a binary search tree?", "concepts": ["at most two children", "ordering property", "search time", "traversal"], "skills": []},
+   {"q": "How would you reverse a string or an array in place?", "concepts": ["two pointers", "swap", "O(n) time", "O(1) space"], "skills": []},
+   {"q": "How do you check if two strings are anagrams?", "concepts": ["count characters", "sorting approach", "time complexity", "edge cases"], "skills": []}
+  ],
+  "intermediate": [
+   {"q": "How would you detect a cycle in a linked list?", "concepts": ["fast and slow pointers", "Floyd's algorithm", "O(1) space", "finding cycle start"], "skills": []},
+   {"q": "Explain BFS and DFS and when you would use each.", "concepts": ["queue vs stack", "shortest path in unweighted graph", "visited set", "complexity"], "skills": []},
+   {"q": "Find the first non-repeating character in a string. Describe your approach and complexity.", "concepts": ["frequency map", "two passes", "O(n)", "edge cases"], "skills": []},
+   {"q": "Explain how a heap works and one problem it solves well.", "concepts": ["complete binary tree", "heap property", "O(log n) insert", "top-k or priority queue"], "skills": []},
+   {"q": "What is dynamic programming? Solve the climbing stairs problem with it.", "concepts": ["overlapping subproblems", "optimal substructure", "memoization or table", "recurrence"], "skills": []},
+   {"q": "How would you merge two sorted arrays efficiently?", "concepts": ["two pointers", "O(n+m)", "in-place option", "edge cases"], "skills": []},
+   {"q": "Given an array, find two numbers that add up to a target. Describe your approach.", "concepts": ["hash map", "O(n)", "brute force comparison", "duplicates"], "skills": []},
+   {"q": "Explain quicksort and its worst case.", "concepts": ["pivot", "partition", "O(n^2) worst case", "random pivot"], "skills": []},
+   {"q": "How would you check if a binary tree is balanced?", "concepts": ["height of subtrees", "difference at most one", "post-order", "O(n)"], "skills": []},
+   {"q": "Explain the sliding window technique with an example.", "concepts": ["window with two pointers", "avoid recomputation", "example problem", "complexity"], "skills": []}
+  ],
+  "advanced": [
+   {"q": "Explain Dijkstra's algorithm and why it fails with negative edges.", "concepts": ["priority queue", "greedy relaxation", "negative weights", "Bellman-Ford"], "skills": []},
+   {"q": "Design an LRU cache with O(1) get and put.", "concepts": ["hash map", "doubly linked list", "eviction", "move to front"], "skills": []},
+   {"q": "How would you find the median of a stream of numbers?", "concepts": ["two heaps", "balancing", "O(log n) insert", "O(1) median"], "skills": []},
+   {"q": "Explain topological sorting and a real use case.", "concepts": ["directed acyclic graph", "Kahn's algorithm or DFS", "cycle detection", "build order example"], "skills": []},
+   {"q": "Solve the longest common subsequence problem and explain the complexity.", "concepts": ["DP table", "recurrence", "O(n*m)", "reconstruct answer"], "skills": []},
+   {"q": "What is a trie and when is it better than a hash set?", "concepts": ["prefix tree", "prefix search", "memory cost", "autocomplete"], "skills": []},
+   {"q": "Explain union-find and how path compression helps.", "concepts": ["disjoint sets", "find and union", "path compression", "union by rank"], "skills": []},
+   {"q": "How would you detect a cycle in a directed graph?", "concepts": ["DFS with colors or recursion stack", "back edge", "Kahn's algorithm", "complexity"], "skills": []},
+   {"q": "Explain amortized analysis using a dynamic array as the example.", "concepts": ["occasional resize", "doubling", "average O(1) append", "total cost"], "skills": []},
+   {"q": "How would you find the k most frequent elements in a large array?", "concepts": ["frequency map", "heap of size k", "bucket sort option", "complexity"], "skills": []}
+  ]
+ },
+ "dbms": {
+  "beginner": [
+   {"q": "What is a primary key and a foreign key?", "concepts": ["unique row identifier", "not null", "reference to another table", "referential integrity"], "skills": ["sql", "dbms"]},
+   {"q": "What is the difference between DELETE, TRUNCATE and DROP?", "concepts": ["remove rows with condition", "remove all rows", "remove table", "rollback or logging"], "skills": ["sql"]},
+   {"q": "Explain the different types of SQL joins.", "concepts": ["inner join", "left join", "right join", "full outer join"], "skills": ["sql"]},
+   {"q": "What is normalization and why do we do it?", "concepts": ["reduce redundancy", "avoid anomalies", "normal forms", "split tables"], "skills": ["database_design", "dbms"]},
+   {"q": "What does GROUP BY do? How is HAVING different from WHERE?", "concepts": ["aggregate per group", "WHERE filters rows", "HAVING filters groups", "example"], "skills": ["sql"]},
+   {"q": "What is an index in a database?", "concepts": ["faster lookups", "B-tree", "slower writes", "extra storage"], "skills": ["sql", "postgresql", "mysql"]},
+   {"q": "What is the difference between SQL and NoSQL databases?", "concepts": ["schema", "relations vs documents", "scaling", "use cases"], "skills": ["sql", "nosql", "mongodb"]},
+   {"q": "What are ACID properties?", "concepts": ["atomicity", "consistency", "isolation", "durability"], "skills": ["dbms"]},
+   {"q": "Write a query to find the second highest salary from an employee table.", "concepts": ["ORDER BY with LIMIT OFFSET", "subquery with MAX", "duplicates", "DISTINCT"], "skills": ["sql"]},
+   {"q": "What is a view in SQL?", "concepts": ["saved query", "virtual table", "security or simplicity", "materialized view"], "skills": ["sql"]}
+  ],
+  "intermediate": [
+   {"q": "Explain transaction isolation levels and the problems each one prevents.", "concepts": ["read committed", "repeatable read", "serializable", "dirty or phantom reads"], "skills": ["dbms", "postgresql"]},
+   {"q": "When would an index not be used by the query planner?", "concepts": ["low selectivity", "functions on column", "leading wildcard", "EXPLAIN"], "skills": ["sql", "postgresql"]},
+   {"q": "What is the N+1 query problem and how do you fix it?", "concepts": ["one query per row", "eager loading or join", "ORM", "measure queries"], "skills": ["orm", "django", "sql"]},
+   {"q": "Explain 1NF, 2NF and 3NF with an example.", "concepts": ["atomic values", "partial dependency", "transitive dependency", "example"], "skills": ["database_design"]},
+   {"q": "How would you design tables for a library system with books, members and loans?", "concepts": ["entities", "relationships", "foreign keys", "constraints"], "skills": ["database_design", "sql"]},
+   {"q": "What are window functions? Give an example.", "concepts": ["OVER clause", "ROW_NUMBER or RANK", "partition", "running totals"], "skills": ["sql", "postgresql"]},
+   {"q": "What is a deadlock in a database and how can it be avoided?", "concepts": ["circular waiting", "lock ordering", "short transactions", "timeouts or detection"], "skills": ["dbms"]},
+   {"q": "Compare optimistic and pessimistic locking.", "concepts": ["version check", "locks held", "conflict frequency", "retries"], "skills": ["dbms"]},
+   {"q": "How do database migrations work and why use a tool for them?", "concepts": ["versioned schema changes", "repeatable", "rollback", "team consistency"], "skills": ["sql", "orm"]},
+   {"q": "When would you choose MongoDB over PostgreSQL?", "concepts": ["flexible schema", "document model", "joins and transactions", "trade-offs"], "skills": ["mongodb", "postgresql"]}
+  ],
+  "advanced": [
+   {"q": "How would you investigate a slow query in PostgreSQL?", "concepts": ["EXPLAIN ANALYZE", "indexes", "statistics", "query rewrite"], "skills": ["postgresql", "sql"]},
+   {"q": "Explain MVCC and how it helps concurrency.", "concepts": ["multiple row versions", "readers do not block writers", "snapshots", "vacuum or cleanup"], "skills": ["postgresql", "dbms"]},
+   {"q": "Explain sharding vs replication and when you need each.", "concepts": ["split data", "copies of data", "read scaling", "write scaling"], "skills": ["system_design", "dbms"]},
+   {"q": "How do B-tree and hash indexes differ?", "concepts": ["range queries", "equality lookups", "ordering", "use cases"], "skills": ["dbms"]},
+   {"q": "Explain the CAP theorem with examples of databases.", "concepts": ["consistency", "availability", "partition tolerance", "examples"], "skills": ["nosql", "system_design"]},
+   {"q": "How would you migrate a large production table without downtime?", "concepts": ["backward-compatible steps", "backfill in batches", "dual writes", "rollback plan"], "skills": ["sql", "postgresql"]},
+   {"q": "How do you store and query vector embeddings in a database?", "concepts": ["vector column", "similarity operator", "approximate index", "trade-offs"], "skills": ["pgvector", "vector_databases"]},
+   {"q": "What is write-ahead logging and why is it important?", "concepts": ["log before data", "crash recovery", "durability", "replication"], "skills": ["dbms"]},
+   {"q": "Design the schema for a multi-tenant SaaS application.", "concepts": ["tenant id column or schema per tenant", "isolation", "indexes", "trade-offs"], "skills": ["database_design"]},
+   {"q": "How would you keep a cache consistent with the database?", "concepts": ["cache invalidation", "TTL", "write-through or write-behind", "race conditions"], "skills": ["redis", "caching"]}
+  ]
+ },
+ "os": {
+  "beginner": [
+   {"q": "What is the difference between a process and a thread?", "concepts": ["own memory space", "shared memory", "creation cost", "communication"], "skills": ["operating_systems"]},
+   {"q": "What is an operating system responsible for?", "concepts": ["process management", "memory management", "file systems", "device management"], "skills": ["operating_systems"]},
+   {"q": "What is virtual memory?", "concepts": ["abstraction of memory", "pages", "swap to disk", "isolation"], "skills": ["operating_systems"]},
+   {"q": "What is a deadlock and what conditions cause it?", "concepts": ["mutual exclusion", "hold and wait", "no preemption", "circular wait"], "skills": ["operating_systems"]},
+   {"q": "What is CPU scheduling? Name two scheduling algorithms.", "concepts": ["choose next process", "round robin", "first come first served", "priority"], "skills": ["operating_systems"]},
+   {"q": "What is the difference between user mode and kernel mode?", "concepts": ["privilege levels", "system calls", "protection", "hardware access"], "skills": ["operating_systems"]},
+   {"q": "What is a file system?", "concepts": ["organize files", "directories", "metadata", "examples like ext4 or NTFS"], "skills": ["operating_systems", "linux"]},
+   {"q": "What is a system call? Give an example.", "concepts": ["request to kernel", "example like read or fork", "mode switch", "API"], "skills": ["operating_systems"]},
+   {"q": "Name some basic Linux commands to inspect running processes.", "concepts": ["ps", "top or htop", "kill", "process id"], "skills": ["linux"]},
+   {"q": "What is a race condition?", "concepts": ["shared data", "timing dependent result", "synchronization", "example"], "skills": ["operating_systems"]}
+  ],
+  "intermediate": [
+   {"q": "Explain paging and page faults.", "concepts": ["fixed-size pages", "page table", "page fault handling", "cost"], "skills": ["operating_systems"]},
+   {"q": "Compare a mutex and a semaphore.", "concepts": ["ownership", "counting", "binary semaphore", "use cases"], "skills": ["operating_systems"]},
+   {"q": "What is thrashing and how can it be reduced?", "concepts": ["too much paging", "working set", "reduce multiprogramming", "more memory"], "skills": ["operating_systems"]},
+   {"q": "Explain the producer-consumer problem and a solution.", "concepts": ["bounded buffer", "synchronization", "semaphores or condition variables", "avoid busy waiting"], "skills": ["operating_systems"]},
+   {"q": "How does fork() work in Unix?", "concepts": ["copy of process", "returns twice", "copy-on-write", "exec"], "skills": ["operating_systems", "linux"]},
+   {"q": "What is context switching and why is it expensive?", "concepts": ["save and restore state", "cache and TLB effects", "kernel time", "threads vs processes"], "skills": ["operating_systems"]},
+   {"q": "Explain inter-process communication methods.", "concepts": ["pipes", "shared memory", "message queues", "sockets"], "skills": ["operating_systems"]},
+   {"q": "What are the differences between preemptive and non-preemptive scheduling?", "concepts": ["interrupt running task", "responsiveness", "starvation", "examples"], "skills": ["operating_systems"]},
+   {"q": "How would you find which process is using the most memory on a Linux server?", "concepts": ["top or ps sort", "RSS", "free or vmstat", "OOM killer"], "skills": ["linux"]},
+   {"q": "What are file permissions in Linux and how do you change them?", "concepts": ["read write execute", "user group others", "chmod", "chown"], "skills": ["linux"]}
+  ],
+  "advanced": [
+   {"q": "Explain how the Linux kernel decides which process to kill when memory runs out.", "concepts": ["OOM killer", "oom score", "memory overcommit", "cgroups limits"], "skills": ["linux"]},
+   {"q": "How do containers use namespaces and cgroups?", "concepts": ["isolation of PID and network", "resource limits", "shared kernel", "difference from VMs"], "skills": ["docker", "linux"]},
+   {"q": "Explain the difference between spinlocks and blocking locks and when each is better.", "concepts": ["busy waiting", "short critical sections", "sleeping", "multicore"], "skills": ["operating_systems"]},
+   {"q": "What is a TLB and what happens on a TLB miss?", "concepts": ["cache of page table entries", "page walk", "performance", "context switch flush"], "skills": ["operating_systems"]},
+   {"q": "Explain priority inversion and how it is solved.", "concepts": ["low priority holds lock", "high priority waits", "priority inheritance", "example"], "skills": ["operating_systems"]},
+   {"q": "How does epoll or similar IO multiplexing help servers scale?", "concepts": ["many sockets one thread", "readiness notification", "vs one thread per connection", "event loop"], "skills": ["linux", "nodejs"]},
+   {"q": "What is copy-on-write and where is it used?", "concepts": ["share until write", "fork", "memory savings", "file systems or snapshots"], "skills": ["operating_systems"]},
+   {"q": "How would you debug a process that is using 100% CPU in production?", "concepts": ["top or perf", "thread dump or profiler", "hot loop", "reproduce safely"], "skills": ["linux"]},
+   {"q": "Compare the banker's algorithm with deadlock detection and recovery.", "concepts": ["avoidance", "safe state", "detection graph", "recovery cost"], "skills": ["operating_systems"]},
+   {"q": "Explain memory-mapped files and their advantages.", "concepts": ["map file into address space", "page cache", "less copying", "shared memory"], "skills": ["operating_systems"]}
+  ]
+ },
+ "networks": {
+  "beginner": [
+   {"q": "What is the difference between TCP and UDP?", "concepts": ["connection oriented", "reliable delivery", "speed", "use cases"], "skills": ["computer_networks"]},
+   {"q": "What happens when you type a URL into the browser?", "concepts": ["DNS lookup", "TCP connection", "HTTP request", "render response"], "skills": ["computer_networks", "networking_protocols"]},
+   {"q": "What is an IP address and what is a port?", "concepts": ["identifies host", "identifies service", "examples", "IPv4 vs IPv6"], "skills": ["computer_networks"]},
+   {"q": "What are common HTTP methods and what do they mean?", "concepts": ["GET", "POST", "PUT or PATCH", "DELETE"], "skills": ["rest_api", "networking_protocols"]},
+   {"q": "What do HTTP status codes 200, 404 and 500 mean?", "concepts": ["success", "not found", "server error", "code families"], "skills": ["rest_api", "networking_protocols"]},
+   {"q": "What is DNS?", "concepts": ["name to IP", "resolvers", "records", "caching"], "skills": ["computer_networks"]},
+   {"q": "What is the difference between HTTP and HTTPS?", "concepts": ["encryption", "TLS", "certificates", "port 443"], "skills": ["networking_protocols"]},
+   {"q": "Name the layers of the OSI model.", "concepts": ["physical to application", "seven layers", "examples per layer", "TCP/IP model"], "skills": ["computer_networks"]},
+   {"q": "What is a firewall?", "concepts": ["filters traffic", "rules", "ports", "inbound and outbound"], "skills": ["network_security"]},
+   {"q": "What is a cookie in web applications?", "concepts": ["stored by browser", "sent with requests", "sessions", "HttpOnly or Secure flags"], "skills": ["networking_protocols"]}
+  ],
+  "intermediate": [
+   {"q": "Explain the TCP three-way handshake.", "concepts": ["SYN", "SYN-ACK", "ACK", "sequence numbers"], "skills": ["computer_networks"]},
+   {"q": "What is CORS and why does the browser enforce it?", "concepts": ["same-origin policy", "preflight request", "allowed origins header", "credentials"], "skills": ["rest_api", "networking_protocols"]},
+   {"q": "How does a load balancer work?", "concepts": ["distribute traffic", "health checks", "algorithms like round robin", "layer 4 vs 7"], "skills": ["system_design", "nginx"]},
+   {"q": "What is subnetting? Explain CIDR notation.", "concepts": ["network and host bits", "/24 example", "mask", "address ranges"], "skills": ["computer_networks"]},
+   {"q": "How does TLS establish a secure connection?", "concepts": ["handshake", "certificate verification", "key exchange", "symmetric encryption"], "skills": ["networking_protocols", "cybersecurity"]},
+   {"q": "What is the difference between a forward proxy and a reverse proxy?", "concepts": ["client side", "server side", "caching or security", "example like Nginx"], "skills": ["nginx", "computer_networks"]},
+   {"q": "What are WebSockets and when would you use them instead of HTTP polling?", "concepts": ["persistent two-way connection", "real-time updates", "upgrade handshake", "overhead"], "skills": ["websockets"]},
+   {"q": "What is NAT and why is it used?", "concepts": ["private to public addresses", "address shortage", "port mapping", "limitations"], "skills": ["computer_networks"]},
+   {"q": "How does HTTP caching work?", "concepts": ["Cache-Control", "ETag", "max-age", "CDN"], "skills": ["networking_protocols", "caching"]},
+   {"q": "What is the difference between authentication and authorization in web APIs?", "concepts": ["who you are", "what you can do", "tokens", "example"], "skills": ["oauth", "rest_api"]}
+  ],
+  "advanced": [
+   {"q": "Explain TCP congestion control.", "concepts": ["slow start", "congestion window", "packet loss signal", "fairness"], "skills": ["computer_networks"]},
+   {"q": "Compare HTTP/1.1, HTTP/2 and HTTP/3.", "concepts": ["multiplexing", "head-of-line blocking", "QUIC over UDP", "header compression"], "skills": ["networking_protocols"]},
+   {"q": "How would you protect an API from a DDoS attack?", "concepts": ["rate limiting", "CDN or WAF", "autoscaling", "blocking bad traffic"], "skills": ["network_security", "cybersecurity"]},
+   {"q": "Explain how a CDN reduces latency.", "concepts": ["edge servers", "caching close to users", "cache invalidation", "origin load"], "skills": ["system_design"]},
+   {"q": "How does OAuth 2.0 authorization code flow work?", "concepts": ["redirect to authorization server", "authorization code", "token exchange", "PKCE"], "skills": ["oauth"]},
+   {"q": "What is mTLS and when would you use it?", "concepts": ["both sides present certificates", "service to service", "identity", "certificate rotation"], "skills": ["network_security", "microservices"]},
+   {"q": "How does BGP route traffic across the internet?", "concepts": ["autonomous systems", "path advertisements", "policies", "route leaks"], "skills": ["computer_networks"]},
+   {"q": "How would you debug intermittent network timeouts between two services?", "concepts": ["logs and metrics", "tcpdump or traces", "DNS and connection pools", "retries with backoff"], "skills": ["microservices", "linux"]},
+   {"q": "Explain service discovery in a microservices system.", "concepts": ["registry", "client vs server side", "health checks", "DNS based"], "skills": ["microservices", "kubernetes"]},
+   {"q": "What are common web attacks like XSS and CSRF and how do you prevent them?", "concepts": ["escape output", "CSRF tokens or SameSite", "input validation", "content security policy"], "skills": ["owasp", "cybersecurity"]}
+  ]
+ },
+ "software_engineering": {
+  "beginner": [
+   {"q": "What are the phases of the software development life cycle?", "concepts": ["requirements", "design", "implementation and testing", "deployment and maintenance"], "skills": ["sdlc"]},
+   {"q": "What is version control and why is Git useful?", "concepts": ["history of changes", "branches", "collaboration", "revert mistakes"], "skills": ["git"]},
+   {"q": "What is the difference between unit testing and integration testing?", "concepts": ["single unit", "components together", "speed", "mocks"], "skills": ["unit_testing", "test_automation"]},
+   {"q": "What is Agile? How is it different from Waterfall?", "concepts": ["iterations", "feedback", "changing requirements", "sequential phases"], "skills": ["agile"]},
+   {"q": "What makes code readable and maintainable?", "concepts": ["clear names", "small functions", "comments where needed", "consistent style"], "skills": []},
+   {"q": "What is a code review and what do you look for?", "concepts": ["correctness", "readability", "tests", "constructive feedback"], "skills": []},
+   {"q": "What is a REST API?", "concepts": ["resources", "HTTP methods", "stateless", "JSON"], "skills": ["rest_api"]},
+   {"q": "What is the difference between git merge and git rebase?", "concepts": ["merge commit", "linear history", "rewriting history", "shared branches"], "skills": ["git"]},
+   {"q": "What is continuous integration?", "concepts": ["frequent merges", "automated builds", "automated tests", "fast feedback"], "skills": ["ci_cd"]},
+   {"q": "What is a bug report? What should a good one contain?", "concepts": ["steps to reproduce", "expected vs actual", "environment", "severity"], "skills": ["manual_testing"]}
+  ],
+  "intermediate": [
+   {"q": "How do you design a clean REST API for a to-do application?", "concepts": ["resource naming", "HTTP methods", "status codes", "validation and errors"], "skills": ["rest_api"]},
+   {"q": "What is technical debt and how do you manage it?", "concepts": ["shortcuts with cost later", "track it", "refactor regularly", "trade-offs"], "skills": []},
+   {"q": "Explain the test pyramid.", "concepts": ["many unit tests", "fewer integration tests", "few end-to-end tests", "speed and cost"], "skills": ["unit_testing", "test_automation"]},
+   {"q": "What is a CI/CD pipeline and what stages would you include?", "concepts": ["build", "test", "deploy", "rollback"], "skills": ["ci_cd"]},
+   {"q": "Explain the MVC pattern.", "concepts": ["model", "view", "controller", "separation of concerns"], "skills": ["design_patterns"]},
+   {"q": "How do you handle errors and logging in a backend service?", "concepts": ["structured logs", "do not leak details to users", "error codes", "monitoring"], "skills": ["backend_development"]},
+   {"q": "What is API versioning and why is it needed?", "concepts": ["backward compatibility", "URL or header versioning", "deprecation", "clients"], "skills": ["rest_api"]},
+   {"q": "How would you test a REST API automatically?", "concepts": ["test client or Postman", "status and body checks", "auth cases", "CI"], "skills": ["api_testing", "postman"]},
+   {"q": "Name three design patterns and when you used them.", "concepts": ["factory", "singleton or observer", "strategy", "real example"], "skills": ["design_patterns"]},
+   {"q": "How do you store secrets like API keys safely in an application?", "concepts": ["environment variables or secret manager", "never commit", "rotation", "least privilege"], "skills": ["cybersecurity"]}
+  ],
+  "advanced": [
+   {"q": "How would you roll out a risky change safely to production?", "concepts": ["feature flags", "canary or gradual rollout", "monitoring", "quick rollback"], "skills": ["ci_cd"]},
+   {"q": "How would you split a monolith into microservices?", "concepts": ["domain boundaries", "strangler pattern", "data ownership", "migration plan"], "skills": ["microservices"]},
+   {"q": "How do you make an API idempotent and why does it matter?", "concepts": ["idempotency keys", "safe retries", "duplicate requests", "PUT vs POST"], "skills": ["rest_api"]},
+   {"q": "How do you measure and improve the reliability of a service?", "concepts": ["SLIs and SLOs", "error budgets", "alerts", "postmortems"], "skills": []},
+   {"q": "Explain contract testing between services.", "concepts": ["consumer contract", "provider verification", "breaking changes", "CI"], "skills": ["microservices", "test_automation"]},
+   {"q": "How would you design observability for a distributed system?", "concepts": ["logs", "metrics", "traces", "correlation ids"], "skills": ["microservices"]},
+   {"q": "What is domain-driven design?", "concepts": ["bounded contexts", "ubiquitous language", "aggregates", "when it helps"], "skills": ["design_patterns"]},
+   {"q": "How do you review a large pull request effectively?", "concepts": ["understand intent first", "risk areas", "tests", "ask for smaller PRs"], "skills": []},
+   {"q": "How would you handle a breaking database change across several services?", "concepts": ["expand and contract", "backward compatible steps", "coordination", "rollback"], "skills": ["microservices", "database_design"]},
+   {"q": "How do you secure a CI/CD pipeline?", "concepts": ["least-privilege credentials", "signed artifacts", "dependency scanning", "protected branches"], "skills": ["ci_cd", "cybersecurity"]}
+  ]
+ },
+ "system_design": {
+  "beginner": [
+   {"q": "What is the difference between vertical and horizontal scaling?", "concepts": ["bigger machine", "more machines", "limits", "statelessness"], "skills": ["system_design"]},
+   {"q": "What is caching and where can it be used in a web app?", "concepts": ["store results", "browser or CDN", "server cache", "invalidation"], "skills": ["caching"]},
+   {"q": "What is a load balancer?", "concepts": ["spread requests", "health checks", "availability", "examples"], "skills": ["system_design"]},
+   {"q": "Why do web servers try to be stateless?", "concepts": ["any server can serve", "easier scaling", "store session elsewhere", "failover"], "skills": ["system_design"]},
+   {"q": "What is a message queue used for?", "concepts": ["asynchronous work", "decoupling", "retries", "examples"], "skills": ["rabbitmq", "kafka"]},
+   {"q": "What is a CDN?", "concepts": ["edge servers", "static content", "lower latency", "less origin load"], "skills": ["system_design"]},
+   {"q": "What is the difference between latency and throughput?", "concepts": ["time per request", "requests per second", "trade-offs", "examples"], "skills": ["system_design"]},
+   {"q": "What is a single point of failure?", "concepts": ["one component brings all down", "redundancy", "example", "failover"], "skills": ["system_design"]},
+   {"q": "What is an API gateway?", "concepts": ["single entry point", "routing", "auth and rate limits", "aggregation"], "skills": ["microservices"]},
+   {"q": "What is database replication?", "concepts": ["copies of data", "read replicas", "failover", "replication lag"], "skills": ["dbms"]}
+  ],
+  "intermediate": [
+   {"q": "Design a URL shortener.", "concepts": ["key generation", "storage", "redirect flow", "caching and scale"], "skills": ["system_design"]},
+   {"q": "Design a basic rate limiter for an API.", "concepts": ["token bucket or window", "per-user keys", "shared store like Redis", "response 429"], "skills": ["system_design", "redis"]},
+   {"q": "How would you design a notification system for email and SMS?", "concepts": ["queue", "workers", "retries", "user preferences"], "skills": ["system_design"]},
+   {"q": "How would you design file uploads for a web app?", "concepts": ["validation", "object storage", "async processing", "security"], "skills": ["system_design"]},
+   {"q": "Explain eventual consistency with an example.", "concepts": ["replicas converge", "temporary differences", "trade-off with availability", "example"], "skills": ["system_design", "nosql"]},
+   {"q": "Design a simple chat application.", "concepts": ["WebSockets", "message storage", "online status", "scaling connections"], "skills": ["system_design", "websockets"]},
+   {"q": "How would you design pagination for a large list API?", "concepts": ["offset vs cursor", "sorting", "consistency", "performance"], "skills": ["rest_api"]},
+   {"q": "How would you design a job queue for background processing?", "concepts": ["producers and workers", "retries and dead letters", "idempotency", "monitoring"], "skills": ["system_design"]},
+   {"q": "Design a search feature for products in an online store.", "concepts": ["search index", "relevance", "filters", "keep index updated"], "skills": ["elasticsearch", "system_design"]},
+   {"q": "How would you design login and sessions for a web app?", "concepts": ["password hashing", "tokens or sessions", "expiry", "secure cookies"], "skills": ["oauth"]}
+  ],
+  "advanced": [
+   {"q": "Design a news feed for a social network.", "concepts": ["fan-out on write vs read", "ranking", "caching", "celebrity problem"], "skills": ["system_design"]},
+   {"q": "Design a distributed cache.", "concepts": ["consistent hashing", "replication", "eviction", "hot keys"], "skills": ["system_design", "caching"]},
+   {"q": "Design a ride-sharing matching service.", "concepts": ["geospatial index", "real-time location", "matching", "scaling by region"], "skills": ["system_design"]},
+   {"q": "Design a video streaming platform.", "concepts": ["transcoding", "adaptive bitrate", "CDN", "storage"], "skills": ["system_design"]},
+   {"q": "How would you design an exactly-once payment processing system?", "concepts": ["idempotency keys", "transactions or outbox", "reconciliation", "retries"], "skills": ["system_design"]},
+   {"q": "Design a recommendation system for an e-commerce site.", "concepts": ["candidate generation", "ranking model", "feedback data", "offline and online"], "skills": ["machine_learning", "system_design"]},
+   {"q": "Design a resume-to-job matching system like this one.", "concepts": ["parsing", "embeddings and vector search", "explainable scoring", "human review"], "skills": ["embeddings", "nlp"]},
+   {"q": "How would you design a multi-region system for high availability?", "concepts": ["data replication across regions", "failover", "latency routing", "consistency trade-offs"], "skills": ["system_design", "cloud_computing"]},
+   {"q": "Design a metrics and monitoring system.", "concepts": ["collection agents", "time-series storage", "aggregation", "alerting"], "skills": ["system_design"]},
+   {"q": "Design a retrieval-augmented generation (RAG) service.", "concepts": ["chunking", "embeddings and retrieval", "prompt with context", "evaluation and guardrails"], "skills": ["rag", "llm"]}
+  ]
+ },
+ "project": {
+  "beginner": [
+   {"q": "Tell me about your project \"{project}\". What problem does it solve?", "concepts": ["problem statement", "users", "main features", "your role"], "skills": []},
+   {"q": "In \"{project}\", what was your own contribution?", "concepts": ["specific tasks", "decisions you made", "tools used", "outcome"], "skills": []},
+   {"q": "Why did you choose the technologies you used in \"{project}\"?", "concepts": ["requirements", "alternatives considered", "team familiarity", "trade-offs"], "skills": []},
+   {"q": "Walk me through the main data flow in \"{project}\".", "concepts": ["input", "processing steps", "storage", "output"], "skills": []},
+   {"q": "What did you learn from building \"{project}\"?", "concepts": ["technical learning", "mistakes", "what you would repeat", "growth"], "skills": []},
+   {"q": "How did you test \"{project}\"?", "concepts": ["test types", "tools", "edge cases", "bugs found"], "skills": []},
+   {"q": "What was the hardest bug you faced in \"{project}\" and how did you fix it?", "concepts": ["symptom", "debugging steps", "root cause", "fix"], "skills": []},
+   {"q": "How did you use {skill} in \"{project}\"?", "concepts": ["concrete usage", "why it fit", "difficulties", "result"], "skills": []},
+   {"q": "If you had one more month on \"{project}\", what would you add?", "concepts": ["priorities", "user value", "technical improvements", "reasoning"], "skills": []},
+   {"q": "How did you organize the code in \"{project}\"?", "concepts": ["folder structure", "separation of concerns", "naming", "reuse"], "skills": []}
+  ],
+  "intermediate": [
+   {"q": "What were the main design decisions in \"{project}\" and their trade-offs?", "concepts": ["decision", "alternatives", "trade-offs", "result"], "skills": []},
+   {"q": "How would \"{project}\" behave with 100 times more users? What would break first?", "concepts": ["bottleneck", "database or compute", "scaling fix", "measurement"], "skills": []},
+   {"q": "How did you handle errors and edge cases in \"{project}\"?", "concepts": ["validation", "error messages", "logging", "examples"], "skills": []},
+   {"q": "How did you secure \"{project}\"?", "concepts": ["authentication", "input validation", "secrets handling", "known risks"], "skills": []},
+   {"q": "How did you measure whether \"{project}\" worked well?", "concepts": ["metrics", "user feedback", "testing results", "baseline"], "skills": []},
+   {"q": "Explain how {skill} fits into the architecture of \"{project}\".", "concepts": ["component role", "interfaces", "alternatives", "limitations"], "skills": []},
+   {"q": "What would you refactor in \"{project}\" today and why?", "concepts": ["code smell", "better design", "risk", "benefit"], "skills": []},
+   {"q": "How did you deploy or run \"{project}\"?", "concepts": ["environment", "build steps", "configuration", "monitoring"], "skills": []},
+   {"q": "Describe the database or storage design of \"{project}\".", "concepts": ["schema or structure", "relationships", "indexes", "why"], "skills": []},
+   {"q": "If you worked in a team on \"{project}\", how did you split and coordinate work?", "concepts": ["roles", "version control workflow", "communication", "conflicts"], "skills": []}
+  ],
+  "advanced": [
+   {"q": "If you rebuilt \"{project}\" for production at scale, what architecture would you choose?", "concepts": ["components", "scaling strategy", "data consistency", "operations"], "skills": []},
+   {"q": "What are the failure modes of \"{project}\" and how would you detect them?", "concepts": ["failure scenarios", "monitoring", "alerts", "recovery"], "skills": []},
+   {"q": "How would you make the {skill} part of \"{project}\" faster or cheaper?", "concepts": ["measure first", "bottleneck", "optimization options", "trade-offs"], "skills": []},
+   {"q": "What would a security review of \"{project}\" find?", "concepts": ["threat model", "likely weaknesses", "fixes", "priority"], "skills": []},
+   {"q": "How would you add automated quality checks to \"{project}\"?", "concepts": ["tests in CI", "linting", "coverage targets", "release gates"], "skills": []},
+   {"q": "How would you evaluate the quality of the results produced by \"{project}\"?", "concepts": ["evaluation metric", "test data", "baseline comparison", "limitations"], "skills": []},
+   {"q": "Which part of \"{project}\" carries the most technical risk and why?", "concepts": ["risk identification", "impact", "mitigation", "evidence"], "skills": []},
+   {"q": "How would you hand over \"{project}\" to another team?", "concepts": ["documentation", "architecture overview", "runbooks", "known issues"], "skills": []},
+   {"q": "How would you redesign the data model of \"{project}\" for new requirements?", "concepts": ["new requirement", "schema change", "migration", "backward compatibility"], "skills": []},
+   {"q": "Compare your use of {skill} in \"{project}\" with an alternative you considered.", "concepts": ["alternative", "comparison criteria", "decision", "hindsight"], "skills": []}
+  ]
+ },
+ "behavioral": {
+  "beginner": [
+   {"q": "Tell me about a time you learned a new technology quickly.", "concepts": ["situation", "how you learned", "result", "reflection"], "skills": []},
+   {"q": "Describe a time you worked in a team. What was your role?", "concepts": ["team context", "your role", "collaboration", "outcome"], "skills": []},
+   {"q": "Tell me about a mistake you made and what you learned.", "concepts": ["honest mistake", "impact", "correction", "lesson"], "skills": []},
+   {"q": "How do you manage your time when you have several deadlines?", "concepts": ["prioritization", "planning", "communication", "example"], "skills": []},
+   {"q": "Why are you interested in this role?", "concepts": ["role understanding", "skills match", "motivation", "goals"], "skills": []},
+   {"q": "Describe a time you received feedback and how you used it.", "concepts": ["feedback", "reaction", "change made", "result"], "skills": []},
+   {"q": "Tell me about a time you helped a teammate.", "concepts": ["situation", "help given", "outcome", "what you learned"], "skills": []},
+   {"q": "How do you ask for help when you are stuck?", "concepts": ["try first", "clear question", "timing", "follow up"], "skills": []},
+   {"q": "Describe a project you are proud of.", "concepts": ["what it was", "your part", "why proud", "impact"], "skills": []},
+   {"q": "How do you keep your technical skills up to date?", "concepts": ["learning sources", "practice", "recent example", "consistency"], "skills": []}
+  ],
+  "intermediate": [
+   {"q": "Tell me about a disagreement with a teammate and how you resolved it.", "concepts": ["situation", "different views", "resolution", "relationship after"], "skills": []},
+   {"q": "Describe a time you had to deliver with unclear requirements.", "concepts": ["clarifying questions", "assumptions", "iteration", "result"], "skills": []},
+   {"q": "Tell me about a time you missed a deadline.", "concepts": ["cause", "communication", "recovery", "prevention"], "skills": []},
+   {"q": "Describe how you explained a technical topic to a non-technical person.", "concepts": ["audience", "simple language", "check understanding", "outcome"], "skills": []},
+   {"q": "Tell me about a time you improved a process in your team.", "concepts": ["problem", "change", "buy-in", "measured result"], "skills": []},
+   {"q": "How do you handle pressure during a production incident?", "concepts": ["stay calm", "communicate", "fix first then root cause", "example"], "skills": []},
+   {"q": "Tell me about a time you took ownership beyond your task.", "concepts": ["situation", "initiative", "action", "result"], "skills": []},
+   {"q": "Describe a time you had to say no to a request.", "concepts": ["reason", "alternative offered", "communication", "outcome"], "skills": []},
+   {"q": "Tell me about a decision you made with incomplete data.", "concepts": ["context", "how you decided", "risk", "result"], "skills": []},
+   {"q": "How do you give feedback to a peer?", "concepts": ["specific", "timely", "kind and direct", "example"], "skills": []}
+  ],
+  "advanced": [
+   {"q": "Tell me about a time you led a project from idea to delivery.", "concepts": ["vision", "planning", "leading people", "results"], "skills": []},
+   {"q": "Describe how you mentored a junior engineer.", "concepts": ["needs assessment", "approach", "progress", "what you learned"], "skills": []},
+   {"q": "Tell me about a technical decision you made that you later reversed.", "concepts": ["original reasoning", "new evidence", "reversal process", "lesson"], "skills": []},
+   {"q": "How do you balance speed of delivery with code quality?", "concepts": ["context matters", "risk", "technical debt plan", "example"], "skills": []},
+   {"q": "Describe a time you influenced a decision without authority.", "concepts": ["stakeholders", "evidence", "persuasion", "result"], "skills": []},
+   {"q": "Tell me about a failed project and what you would do differently.", "concepts": ["what happened", "your part", "lessons", "changes made"], "skills": []},
+   {"q": "How do you handle conflicting priorities from two managers?", "concepts": ["make conflict visible", "clarify goals", "escalate properly", "outcome"], "skills": []},
+   {"q": "Describe how you handled an ethical concern at work.", "concepts": ["concern", "action", "communication", "outcome"], "skills": []},
+   {"q": "How do you build trust in a new team?", "concepts": ["listen first", "deliver small wins", "transparency", "example"], "skills": []},
+   {"q": "Tell me about a time you had to change a team's direction.", "concepts": ["reason", "communication", "managing resistance", "result"], "skills": []}
+  ]
+ }
+}
